@@ -77,7 +77,6 @@ void start_timer()
 
 unsigned long get_elapsed_time()
 {
-    // You can replace this with actual time fetching logic depending on your system
     static unsigned long counter = 0;
     counter++;
     // Simulate elapsed time in microseconds (1 counter unit = 1 microsecond)
